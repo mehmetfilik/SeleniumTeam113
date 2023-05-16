@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class C01_DriverGetMethodlari {
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver","src/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/resources/chromedriver.exe");
         // Sisteme Webdriver'in ne olacagini ve bu driver'in hangi dosya yolunda oldugunda soyler
         WebDriver driver = new ChromeDriver();
         // Bilgisayardaki Chrome Browser'in otomasyonla calisacak bir kopyasini olusturur
@@ -37,15 +37,9 @@ public class C01_DriverGetMethodlari {
         // acilan tum windows/tab'lerin unique hash code'larini bir set olarak dondurur
 
 
-
-
-
         Thread.sleep(5000); // mili sn olarak yazidigimiz sayi suresince kodu bekletir
 
         driver.close(); // acilan browser'i kapatir
-
-
-
 
 
     }
